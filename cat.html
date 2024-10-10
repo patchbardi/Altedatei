@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat test</title>
+</head>
+<body>
+    <head>
+        <nav></nav>
+    </head>
+    <main>
+        <section>
+            <h1>Cats and more...</h1>
+            <article>
+                <h2>Hello Cat!</h2>
+
+                <form action="/cats/hello.php" method="POST">
+
+                    <label for="your-name">Name:</label>
+                    <input id="your-name" name="name-to-php" type="text" placeholder="Your name..." required>
+
+                    <button type="submit">Say hello...</button>
+
+                </form>
+
+                <div id="message"></div>
+
+            </article>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        &copy;catwork
+    </footer>
+    <script src="cat.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's Document</title>
+</head>
+<body>
+ 
+<button id="my-first-button">Klick mal!</button>
+ 
+<script>
+
+window.onload = (event) => {
+        console.log("page is fully loaded");
+ 
+        document.getElementById("my-first-button").addEventListener("click", () => {
+            console.log("Button wurde geklickt");
+        });
+
+    };
+</script>
+ 
+</body>
+</html>
+ 

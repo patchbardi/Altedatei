@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elemente Beispiele</title>
+</head>
+<body>
+
+<h1>HTML Elemente</h1>
+
+<h2>Formulare</h2>
+ 
+<form action="http://172.19.112.235/contact.php" method="POST">
+  <label for="email">E-Mail:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Senden">
+</form>
+
+<form action="http://fi/php/contact.php" method="POST">
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Senden">
+  </form>
+
+
+<form action="/submit" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <br> 
+  <label for="myemail">E-Mail:</label>
+  <input type="email" id="myemail" name="myemail">
+  <br>
+  <label for="password">Passwort:</label>
+  <input type="password" id="password" name="passsword">
+  <input type="submit" value="Absenden">
+</form>
+
+
+
+
+
+<h2>Überschriften (h1 - h6)</h2>
+<p>HTML bietet sechs verschiedene Überschriftenelemente von h1 (wichtigste Überschrift) bis h6 (am wenigsten wichtig).</p>
+<p>
+<h1>Größte Überschrift</h1>
+<h2>Zweitgrößte Überschrift</h2>
+<h3>Mittlere Überschrift</h3>
+<h4>Kleinere Überschrift</h4>
+<h5>Noch kleinere Überschrift</h5>
+<h6>Kleinste Überschrift</h6>
+</p>
+
+<h2>Absätze</h2>
+<p>Dies ist ein Beispielabsatz.</p>
+
+<h2>Links</h2>
+<p><a href="https://example.com">Externer Link</a></p>
+<p>Ein Anker-Link kann innerhalb der Seite verwendet werden:</p>
+<p><a href="#ziel">Springe zu Abschnitt</a></p>
+
+<h2>Div-Element</h2>
+<p>Das div-Tag wird verwendet, um Bereiche auf einer Seite zu gruppieren und zu strukturieren.</p>
+<p><div>Dies ist ein Container.</div></p>
+
+<h2>Listen</h2>
+<p>HTML unterstützt ungeordnete Listen (ul) und geordnete Listen (ol).</p>
+<p>
+<ul>
+  <li>Listelement 1</li>
+  <li>Listelement 2</li>
+</ul>
+
+<ol>
+  <li>Erstes Element</li>
+  <li>Zweites Element</li>
+</ol>
+</p>
+
+<h2>Tabellen</h2>
+<p>Einfaches Beispiel:</p>
+<p>
+<table>
+  <tr>
+    <td>Zelle 1</td>
+    <td>Zelle 2</td>
+  </tr>
+  <tr>
+    <td>Zelle 3</td>
+    <td>Zelle 4</td>
+  </tr>
+</table>
+</p>
+<p>Vollständiges Beispiel:</p>
+<p>
+  <table border="1">
+    <caption>
+      Front-end web developer course 2021
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">Person</th>
+        <th scope="col">Most interest in</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Chris</th>
+        <td>HTML tables</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <th scope="row">Dennis</th>
+        <td>Web accessibility</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <th scope="row">Sarah</th>
+        <td>JavaScript frameworks</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <th scope="row">Karen</th>
+        <td>Web performance</td>
+        <td>36</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row" colspan="2">Average age</th>
+        <td>33</td>
+      </tr>
+    </tfoot>
+  </table>
+</p>
+
+<h2>Audio</h2>
+<p>Das <audio>-Tag wird verwendet, um Audio-Dateien einzubetten.</p>
+<p><audio controls>
+  <source src="https://file-examples.com/storage/feaf6fc38466e98369950a4/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg">
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio></p>
+
+<h2>Video</h2>
+<p><video controls>
+  <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+  Ihr Browser unterstützt das Video-Element nicht.
+</video></p>
+
+<h2>Buttons</h2>
+<p><button>Klicken Sie hier</button></p>
+
+<h2>IFrames</h2>
+<p><iframe src="." width="300" height="200"></iframe></p>
+
+</body>
+</html>

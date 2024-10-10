@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "name": "Louise Nkouami",
+        "username": "Ma Mere",
+        "email": "louise.nkouami@kribi.cm",
+        "address": {
+            "street": "Rue de la Plage",
+            "suite": "B.P. 259",
+            "city": "Kribi",
+            "zipcode": "23701",
+            "geo": {
+                "lat": "2.9361",
+                "lng": "9.9101"
+            }
+        },
+        "phone": "237-670-736-8031",
+        "website": "louise.kribi.cm",
+        "company": {
+            "name": "Kribi Shipping Ltd.",
+            "catchPhrase": "Facilitating coastal commerce",
+            "bs": "optimize maritime logistics"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Joseph Ngamaleu",
+        "username": "JoeNgama",
+        "email": "joseph.ngamaleu@yaounde.cm",
+        "address": {
+            "street": "Avenue Charles de Gaulle",
+            "suite": "Apt. 12",
+            "city": "Yaoundé",
+            "zipcode": "23702",
+            "geo": {
+                "lat": "3.8480",
+                "lng": "11.5021"
+            }
+        },
+        "phone": "237-222-691-345",
+        "website": "ngamaleu-business.cm",
+        "company": {
+            "name": "Yaoundé Business Solutions",
+            "catchPhrase": "Empowering Central Africa's economy",
+            "bs": "synergize business operations"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Benoit Tchaptchet",
+        "username": "BenoitT",
+        "email": "benoit.tchaptchet@douala.cm",
+        "address": {
+            "street": "Boulevard de la Liberté",
+            "suite": "Office 301",
+            "city": "Douala",
+            "zipcode": "23703",
+            "geo": {
+                "lat": "4.0483",
+                "lng": "9.7043"
+            }
+        },
+        "phone": "237-233-123-567",
+        "website": "tchaptchet.biz",
+        "company": {
+            "name": "Douala Logistics Group",
+            "catchPhrase": "Leading the way in logistics",
+            "bs": "deliver innovative transport solutions"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Mireille Fotsing",
+        "username": "MireilleF",
+        "email": "mireille.fotsing@bafoussam.cm",
+        "address": {
+            "street": "Route de Mbouda",
+            "suite": "Apt. 45B",
+            "city": "Bafoussam",
+            "zipcode": "23704",
+            "geo": {
+                "lat": "5.4778",
+                "lng": "10.4171"
+            }
+        },
+        "phone": "237-233-987-654",
+        "website": "mireillefotsing.cm",
+        "company": {
+            "name": "Fotsing Holdings",
+            "catchPhrase": "Connecting the West",
+            "bs": "revolutionize local businesses"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Patrick Ekobo",
+        "username": "PatrickE",
+        "email": "patrick.ekobo@limbe.cm",
+        "address": {
+            "street": "Cité Ngeme",
+            "suite": "Suite 107",
+            "city": "Limbe",
+            "zipcode": "23705",
+            "geo": {
+                "lat": "4.0224",
+                "lng": "9.2096"
+            }
+        },
+        "phone": "237-651-234-876",
+        "website": "ekobo-investments.cm",
+        "company": {
+            "name": "Ekobo Investments",
+            "catchPhrase": "Growing the southwest",
+            "bs": "maximize regional development"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Vanessa Motaze",
+        "username": "VaneM",
+        "email": "vanessa.motaze@ngaoundere.cm",
+        "address": {
+            "street": "Boulevard du Centenaire",
+            "suite": "Apt. 78",
+            "city": "Ngaoundéré",
+            "zipcode": "23706",
+            "geo": {
+                "lat": "7.3276",
+                "lng": "13.5847"
+            }
+        },
+        "phone": "237-661-789-234",
+        "website": "vanessamotaze.cm",
+        "company": {
+            "name": "Ngaoundéré Agribusiness",
+            "catchPhrase": "Farming the future",
+            "bs": "boost agribusiness efficiency"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Jean-Claude Ebogo",
+        "username": "JCEbogo",
+        "email": "jeanclaude.ebogo@ebolowa.cm",
+        "address": {
+            "street": "Avenue des Palmiers",
+            "suite": "Suite 280",
+            "city": "Ebolowa",
+            "zipcode": "23707",
+            "geo": {
+                "lat": "2.8975",
+                "lng": "11.1511"
+            }
+        },
+        "phone": "237-699-123-432",
+        "website": "ebogo-group.cm",
+        "company": {
+            "name": "Ebogo Group",
+            "catchPhrase": "Building sustainable communities",
+            "bs": "integrate environmental solutions"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Samuel Ndongo",
+        "username": "SamNdongo",
+        "email": "samuel.ndongo@bertoua.cm",
+        "address": {
+            "street": "Rue de la République",
+            "suite": "Suite 321",
+            "city": "Bertoua",
+            "zipcode": "23708",
+            "geo": {
+                "lat": "4.5776",
+                "lng": "13.6843"
+            }
+        },
+        "phone": "237-673-112-987",
+        "website": "ndongo-enterprises.cm",
+        "company": {
+            "name": "East Region Enterprises",
+            "catchPhrase": "Bringing opportunity to the east",
+            "bs": "develop resource-based industries"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Marie Abena",
+        "username": "MarieA",
+        "email": "marie.abena@garoua.cm",
+        "address": {
+            "street": "Boulevard Lamido",
+            "suite": "Suite 402",
+            "city": "Garoua",
+            "zipcode": "23709",
+            "geo": {
+                "lat": "9.3017",
+                "lng": "13.3977"
+            }
+        },
+        "phone": "237-674-345-678",
+        "website": "marieabena.cm",
+        "company": {
+            "name": "Garoua Enterprises",
+            "catchPhrase": "Empowering the north",
+            "bs": "expand northern business opportunities"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Alain Tchana",
+        "username": "AlainT",
+        "email": "alain.tchana@maroua.cm",
+        "address": {
+            "street": "Rue du Gouverneur",
+            "suite": "Suite 198",
+            "city": "Maroua",
+            "zipcode": "23710",
+            "geo": {
+                "lat": "10.5895",
+                "lng": "14.3159"
+            }
+        },
+        "phone": "237-655-789-654",
+        "website": "alaintchana.cm",
+        "company": {
+            "name": "Far North Development Corp",
+            "catchPhrase": "Fostering growth in the Far North",
+            "bs": "support regional infrastructure"
+        }
+    }
+]

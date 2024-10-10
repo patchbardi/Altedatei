@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantische HTML-Struktur</title>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner Webseite</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Über uns</a></li>
+                <li><a href="#section2">Dienstleistungen</a></li>
+                <li><a href="#section3">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>Über uns</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel diam id quam.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Dienstleistungen</h2>
+            <article>
+                <h3>Webentwicklung</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h4>Weitere Informationen</h4>
+            <p>Hier finden Sie zusätzliche Informationen zu unseren Dienstleistungen.</p>
+        </aside>
+
+        <aside>
+            Newsletter:
+            <form action="https://fi/php/contact.php" method="POST">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Senden">
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mein Unternehmen</p>
+    </footer>
+</body>
+</html>
